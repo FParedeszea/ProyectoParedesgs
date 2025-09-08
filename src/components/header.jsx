@@ -1,7 +1,7 @@
-import React, {useState} from "react";
+import React, { useState } from 'react';
 import logo from '../img/logo2.jpg';
 
-const header = () => {
+const Header = () => {
     const [isSidebarActive, setIsSidebarActive] = useState(false);
 
     const handleToggleMenu = () => {
@@ -24,10 +24,9 @@ const header = () => {
                     </ul>
                 </nav>
             </div>
-            <h1>hola</h1>
         </header>
         </>
     )
 }
 
-export default header;
+export default Header;

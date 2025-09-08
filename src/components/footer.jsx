@@ -1,14 +1,10 @@
 import React, {useState} from "react";
-import fb from '../img/facebook.avif'
+import fb from '../img/facebook.avif';
+import instagram from '../img/instagram.avif';
+import tiktok from '../img/tiktok.avif'
 
 
 const footer = () => {
-    const [isSidebarActive, setIsSidebarActive] = useState(false);
-
-    const handleToggleMenu = () => {
-        setIsSidebarActive(!isSidebarActive);
-    };
-
     return (
         <>
             <footer>
@@ -23,8 +19,8 @@ const footer = () => {
                     </div>
                     <div className="social-media">
                         <a href="#" target="_blank"><img src={fb} alt="Facebook"/></a>
-                        <a href="#" target="_blank"><img src="img\instagram.avif" alt="Instagram"/></a>
-                        <a href="#" target="_blank"><img src="img\tiktok.avif" alt="Tiktok"/></a>
+                        <a href="#" target="_blank"><img src={instagram} alt="Instagram"/></a>
+                        <a href="#" target="_blank"><img src={tiktok} alt="Tiktok"/></a>
                     </div>
                 </div>
             </footer>
