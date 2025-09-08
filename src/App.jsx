@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './components/Header.jsx'; // Header
-import Footer from './components/Footer.jsx'; // Footer
-import Hero from './components/Hero.jsx'; // Hero
-import ContactForm from './components/ContactForm.jsx';// ContactForm
-import ContentColums from './components/ContentColums.jsx';// ContentColums
+import Header from './components/Header'; // Header
+import Footer from './components/Footer'; // Footer
+import Hero from './components/Hero'; // Hero
+import ContactForm from './components/ContactForm';// ContactForm
+import ContentColums from './components/ContentColums';// ContentColums
 
 const App = () => {
   return (
