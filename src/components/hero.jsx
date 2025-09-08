@@ -7,7 +7,7 @@ import pintura from "../img/pintura2.jpeg";
 import limpieza from "../img/limpieza a domicilio2.jpeg";
 import smv from "../img/smv2.jpeg";
 
-const Hero = () => {
+const hero = () => {
 
   const [slideIndex, setSlideIndex] = useState(0);
 
@@ -95,4 +95,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default hero;

@@ -1,14 +1,14 @@
 import React from 'react';
-import header from './components/header'; // Header
-import Footer from './components/Footer'; // Footer
-import Hero from './components/Hero'; // Hero
-import ContactForm from './components/ContactForm';// ContactForm
-import ContentColums from './components/ContentColums';// ContentColums
+import Header from './components/header'; // Header
+import Footer from './components/footer'; // Footer
+import Hero from './components/hero'; // Hero
+import ContactForm from './components/contactForm';// ContactForm
+import ContentColums from './components/contentColums';// ContentColums
 
 const App = () => {
   return (
     <>
-    <header/>
+    <Header/>
     <main>
         <Hero/>
         <ContentColums/>

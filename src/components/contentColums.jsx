@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-const ContentColums = () => {
+const contentColums = () => {
     return(
         <section className="content-columns" id="sobre-nosotros">
             <div className="nosotros">
@@ -36,4 +36,4 @@ const ContentColums = () => {
     );
 };
 
-export default ContentColums;
+export default contentColums;
