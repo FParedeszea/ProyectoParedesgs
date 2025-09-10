@@ -1,4 +1,4 @@
-# React + Vite  Bienvenidos a mi repositorio de mi proyecto PGS
+# Bienvenidos a mi repositorio de mi proyecto PAREDES GENERAL SSERVICES
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
