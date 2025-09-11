@@ -28,7 +28,7 @@ export const services = [
         name: 'Albañileria',
         price: 50.00,
         description: 'La estructura de tu hogar en las mejores manos',
-        image: 'src/img/albañileria.jpeg'
+        image: '../img/albañileria.jpeg'
     },
 
     {
@@ -36,7 +36,7 @@ export const services = [
         name: 'Consulta medica online',
         price: 15.00,
         description: 'Que un experto se encargue de tus dudas',
-        image: 'src/img/smv.jpeg'
+        image: '../img/smv.jpeg'
     },
 
     {
@@ -44,6 +44,6 @@ export const services = [
         name: 'Pintura',
         price: 50.00,
         description: 'Deja tu casa como nueva, nuestros pintores son expertos que cuidan todos los detalles',
-        image: 'src/img/pintura.jpeg'
+        image: '../img/pintura.jpeg'
     }
 ]
