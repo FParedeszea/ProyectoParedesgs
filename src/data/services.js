@@ -4,7 +4,7 @@ export const services = [
         name: 'Gasfiteria',
         price: 50.00,
         description: 'Soluciona cualquier fuga o desperfecto que tengas con los mejores tecnicos de la ciudad',
-        image: 'src/img/gasfiteria.jpeg'
+        image: '../img/gasfiteria.jpeg'
     },
 
     {
@@ -12,7 +12,7 @@ export const services = [
         name: 'Electricista',
         price: 50.00,
         description: 'Tus conexciones mas seguras y eficientes',
-        image: 'src/img/electricista.jpeg'
+        image: '../img/electricista.jpeg'
     },
 
     {
@@ -20,7 +20,7 @@ export const services = [
         name: 'Cerrajeria',
         price: 50.00,
         description: 'Instalacion optima de puertas, copias de llaves, aperturas de emergencia y más',
-        image: 'src/img/cerrajeria.jpeg'
+        image: '../img/cerrajeria.jpeg'
     },
 
     {
