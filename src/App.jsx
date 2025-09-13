@@ -16,6 +16,10 @@ const App = () => {
   //Estado para guardar los items en el carrito
   const [cartItems, setCartItems] = useState([]);
 
+  const handleClearCart = () => {
+        setCartItems([]);
+    };
+
   //Funcion que añade elementos al carrito 
   const handleAddToCart = (service) => {
     setCartItems ((prevItems) => [...prevItems, service]);
@@ -43,7 +47,7 @@ const App = () => {
           {isStorePage ?(
             <>
               <ServicesList onAddToCart={handleAddToCart}/>
-              <Cart cartItems={cartItems} onRemoveFromCart={handleRemoveToCart}/>
+              <Cart cartItems={cartItems} onRemoveFromCart={handleRemoveToCart} onClearCart={handleClearCart}/>
             </>
           ) : (
             <>

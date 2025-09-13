@@ -105,3 +105,27 @@
 .cart-total-amount {
   color: #4338ca;
 }
+
+.clear-cart-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #dc3545; /* Rojo para indicar una acción de eliminación */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clear-cart-button:hover {
+  background-color: #c82333; /* Un rojo más oscuro al pasar el ratón */
+}
+
+.clear-cart-button:disabled {
+  background-color: #e3e3e3;
+  color: #a0a0a0;
+  cursor: not-allowed;
+}

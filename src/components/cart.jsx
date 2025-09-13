@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom"
 import '../css/cart.css'
 
-const cart = ({ cartItems, onRemoveFromCart }) => {
+const cart = ({ cartItems, onRemoveFromCart, onClearCart }) => {
     const calculeTotal = () => {
         return cartItems.reduce((total, item) => total + item.price, 0).toFixed(2);
     };
@@ -35,6 +35,9 @@ const cart = ({ cartItems, onRemoveFromCart }) => {
                     </li>
                     ))}
                 </ul>
+                <button onClick={onClearCart} className="clear-cart-button">
+                        Vaciar Carrito
+                </button>
                 <div className="cart-total-container">
                     <h3 className="cart-total">
                     Total: <span className="cart-total-amount">${calculeTotal()}</span>
